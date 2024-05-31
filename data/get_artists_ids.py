@@ -29,5 +29,5 @@ for artist in to_be_searched_artits:
 print("")
 print("")
 print("Final id map:")
-# copy paste it into artist.json
+# copy paste the result of the "print" into authors.json
 print(json.dumps(results))
