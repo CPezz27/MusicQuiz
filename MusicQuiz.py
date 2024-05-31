@@ -40,7 +40,7 @@ while a:
         print("{} has {} albums, while {} has {} albums".format(artists_random[0], nb_album1, artists_random[1],
                                                              nb_album2))
     elif x not in ["1", "2"]:
-        raise Exception("Risposta non accettata.")
+        raise Exception("Response not accepted.")
 
     y = input("Do you want to continue?(Y) ").strip().lower()
     if y != "y":
