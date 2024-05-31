@@ -37,7 +37,7 @@ while a:
             print("You did it!")
         elif (x == 1 and nb_album1 < nb_album2) or (x == 2 and nb_album1 > nb_album2):
             print("Not correct.")
-        print("{} has {} album, while {} has {} album".format(artists_random[0], nb_album1, artists_random[1],
+        print("{} has {} albums, while {} has {} albums".format(artists_random[0], nb_album1, artists_random[1],
                                                              nb_album2))
     elif x not in ["1", "2"]:
         raise Exception("Risposta non accettata.")
